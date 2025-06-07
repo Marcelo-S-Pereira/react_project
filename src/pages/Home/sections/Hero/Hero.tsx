@@ -53,7 +53,7 @@ const Hero = () => {
                             <Grid container display="flex" justifyContent="center" spacing="7px" pt={3}>
                                 <Grid size={{ xs: 12, md: 4 }} display="flex" justifyContent="center" >
                                     
-                                    <StyledButton>
+                                    <StyledButton onClick={()=> console.log("download")}>
                                         <CloudDownloadIcon />
                                         <Typography>
                                         Download CV
@@ -61,7 +61,7 @@ const Hero = () => {
                                     </StyledButton>
                                 </Grid>
                                 <Grid size={{ xs: 12, md: 4 }} display="flex" justifyContent="center">
-                                    <StyledButton>
+                                    <StyledButton onClick={()=> console.log("whatsapp")}>
                                         <WhatsAppIcon />
                                         <Typography>
                                             Whatsapp
